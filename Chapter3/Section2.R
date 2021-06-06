@@ -2,7 +2,7 @@ library(rstan)
 library(bayesplot)
 library(tidyverse)
 
-# Stanでの推定 ----
+# Stanでの推定(単回帰モデル) ----
 rstan_options(auto_write = TRUE)
 options(mc.cores = parallel::detectCores())
 
